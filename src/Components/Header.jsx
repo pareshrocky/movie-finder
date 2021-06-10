@@ -21,7 +21,7 @@ export default function Header({ getMovies, link }) {
     setReturnBack((prev) => !prev);
   };
   return (
-    <div className="header d-flex  flex-row justify-content-between mt-3">
+    <div className="header d-flex  flex-row justify-content-between mt-3 px-5">
       <button
         onClick={handleButtonClick}
         style={{ visibility: !returnBack && "hidden" }}
