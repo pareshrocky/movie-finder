@@ -12,7 +12,7 @@ export default function Header({ getMovies, link }) {
     if (searchKey) {
       getMovies(searchLink);
       setSearchKey("");
-      setReturnBack((prev) => !prev);
+      setReturnBack(true);
     }
   }
   const handleButtonClick = (e) => {
